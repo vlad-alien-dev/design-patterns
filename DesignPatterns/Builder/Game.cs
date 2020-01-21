@@ -23,6 +23,13 @@ namespace Builder
             Console.WriteLine(castle.Build());
             Console.WriteLine(worldWonder.Build());
             Console.WriteLine(house.Build());
+            var tBuilder = new GameBuildingBuilder();
+            
+
+            var director = new Director();
+            director.ConstructTower(tBuilder);
+            Console.WriteLine(tBuilder.Build());
+
             Console.ReadKey();
         }
     }

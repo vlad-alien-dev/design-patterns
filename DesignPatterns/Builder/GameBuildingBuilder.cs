@@ -6,32 +6,32 @@ namespace Builder
 {
     public class GameBuildingBuilder
     {
-        private readonly GameBuilding building; //if need an inner (nested builder, look here https://dev.to/alialp/builder-design-pattern-for-objects-with-nested-properties-5g3c)
+        protected readonly GameBuilding building; //if need an inner (nested builder, look here https://dev.to/alialp/builder-design-pattern-for-objects-with-nested-properties-5g3c)
         public GameBuildingBuilder()
         {
             this.building = new GameBuilding();
         }
-        public GameBuildingBuilder BuildingType(GameBuildingType type)
+        public virtual GameBuildingBuilder BuildingType(GameBuildingType type)
         {
             this.building.BuildingType = type;
             return this;
         }
-        public GameBuildingBuilder HitPoints(int hitPoints)
+        public virtual GameBuildingBuilder HitPoints(int hitPoints)
         {
             this.building.HitPoints = hitPoints;
             return this;
         }
-        public GameBuildingBuilder AttackPoints(int attackPoints)
+        public virtual GameBuildingBuilder AttackPoints(int attackPoints)
         {
             this.building.AttackPoints = attackPoints;
             return this;
         }
-        public GameBuildingBuilder Range(int range)
+        public virtual GameBuildingBuilder Range(int range)
         {
             this.building.Range = range;
             return this;
         }
-        public GameBuildingBuilder PeopleInsideCapacity(int peopleCapacity)
+        public virtual GameBuildingBuilder PeopleInsideCapacity(int peopleCapacity)
         {
             this.building.PeopleInsideCapacity = peopleCapacity;
             return this;

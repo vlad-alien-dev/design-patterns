@@ -9,6 +9,7 @@ namespace Builder
         House,
         TownHall,
         Castle,
-        WorldWonder
+        WorldWonder,
+        Tower
     }
 }
