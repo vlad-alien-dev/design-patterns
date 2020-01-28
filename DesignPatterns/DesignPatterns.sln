@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatternsDemo", "CreationalPatternsDemo", "{FA9ABB68-24D0-4228-8BC2-D5B7161404C4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{FA9ABB68-24D0-4228-8BC2-D5B7161404C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{3FBBCF48-81DD-4C0D-843B-3D45028BBC30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{6B7646D4-87A1-4969-B8F1-584EACAA5625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{6B7646D4-87A1-4969-B8F1-584EACAA5625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodFromScratch", "FactoryMethodFromScratch\FactoryMethodFromScratch.csproj", "{6535E1EF-79D2-4C88-8E32-060E637B983B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodFromScratch", "FactoryMethodFromScratch\FactoryMethodFromScratch.csproj", "{6535E1EF-79D2-4C88-8E32-060E637B983B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{EB78D535-562C-452F-BE07-8060CCFEF86C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{EB78D535-562C-452F-BE07-8060CCFEF86C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{D4701DD7-838D-412E-A03D-704F4E5C723D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{D4701DD7-838D-412E-A03D-704F4E5C723D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{D708F39F-D695-4406-82E0-0BE7C4351BB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{B04EE148-6FBE-4083-AC6C-C70AF3A86463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{BFD396D6-7CAE-4631-B265-FF389AA36A58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +47,14 @@ Global
 		{D4701DD7-838D-412E-A03D-704F4E5C723D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4701DD7-838D-412E-A03D-704F4E5C723D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4701DD7-838D-412E-A03D-704F4E5C723D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04EE148-6FBE-4083-AC6C-C70AF3A86463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04EE148-6FBE-4083-AC6C-C70AF3A86463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04EE148-6FBE-4083-AC6C-C70AF3A86463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04EE148-6FBE-4083-AC6C-C70AF3A86463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD396D6-7CAE-4631-B265-FF389AA36A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD396D6-7CAE-4631-B265-FF389AA36A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD396D6-7CAE-4631-B265-FF389AA36A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD396D6-7CAE-4631-B265-FF389AA36A58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +65,8 @@ Global
 		{6535E1EF-79D2-4C88-8E32-060E637B983B} = {FA9ABB68-24D0-4228-8BC2-D5B7161404C4}
 		{EB78D535-562C-452F-BE07-8060CCFEF86C} = {FA9ABB68-24D0-4228-8BC2-D5B7161404C4}
 		{D4701DD7-838D-412E-A03D-704F4E5C723D} = {FA9ABB68-24D0-4228-8BC2-D5B7161404C4}
+		{B04EE148-6FBE-4083-AC6C-C70AF3A86463} = {D708F39F-D695-4406-82E0-0BE7C4351BB5}
+		{BFD396D6-7CAE-4631-B265-FF389AA36A58} = {D708F39F-D695-4406-82E0-0BE7C4351BB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0141301-0BA2-411C-96ED-9EAFD7C13C8F}
